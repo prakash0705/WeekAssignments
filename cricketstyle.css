@@ -1,0 +1,83 @@
+body {
+    margin: 20px !important;
+}
+
+table td,
+table th {
+    font-size: 10px;
+    font-weight: 900;
+    padding: 5px !important;
+    border: 1px solid black !important;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.btnCenter {
+    padding: 3px !important;
+    font-size: 13px !important;
+    margin-left: 45%;
+    margin-bottom: 10%;
+}
+
+.resultBtn {
+    margin-left: 32%;
+}
+
+table,
+th {
+    border: 2px solid black !important;
+}
+
+.resultText {
+    margin-top: 20px;
+}
+
+.countdown span {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    font-size: 3rem;
+    margin-left: 0.8rem;
+}
+
+.countdown span:first-of-type {
+    margin-left: 0;
+}
+
+.countdown {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.countdown-circles {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.countdown-circles span {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.countdown-circles span:first-of-type {
+    margin-left: 0;
+}
+
+@media only screen and (min-width: 491px) and (max-width: 768px) {
+    .resultBtn {
+        margin-left: 35%;
+    }
+}
+
+@media only screen and (min-width: 200px) and (max-width: 490px) {
+    .resultBtn {
+        margin-left: 25%;
+        font-size: 8px;
+    }
+}
